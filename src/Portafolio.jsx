@@ -1,13 +1,15 @@
 import { useState } from 'react'
 import './Estilos/Portafolio.css'
+import Atras from './Componentes/Back'
 
-function App() {
+function Portafolio() {
+
 
   return (
     <div className="App">
-      <span>Portafolio</span>
+      <Atras />
     </div>
   )
 }
 
-export default App
+export default Portafolio
