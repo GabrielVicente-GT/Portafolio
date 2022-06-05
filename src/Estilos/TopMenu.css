@@ -1,0 +1,72 @@
+.MenuSuperior{
+    position: fixed;
+    opacity: 0.8;
+    width: 60%;
+    height: 10%;
+    top: 3%;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.AlgunaClase{
+    background-color: transparent;
+    border: 0px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    font-size: 15px;
+    opacity: 1;
+    font-weight: bold;
+    transition: all 500ms ease;
+}
+
+.Botones{
+    display: grid;
+    grid-template-columns: auto 2px auto 2px auto;
+    gap: 30px;
+    z-index: 1000;
+}
+
+.Botones span{
+    cursor:context-menu;
+    font-size: 20px;
+}
+
+/*Cambiantes*/
+
+.Botones .Selecciones{
+
+    color: white !important;
+
+}
+
+.Botones .Selecciones:hover{
+    transform: scale(1.1);
+    transition: all 500ms ease;
+}
+
+
+.Botones .Separadores{
+    cursor:context-menu;
+    font-size: 20px;
+    color: white;
+}
+
+.Botones .SeleccionesAM{
+
+    color: black !important;
+
+}
+
+.Botones .SeleccionesAM:hover{
+    transform: scale(1.1);
+    transition: all 500ms ease;
+}
+
+.Botones .SeparadoresAM{
+    cursor:context-menu;
+    font-size: 20px;
+    color: black;
+}
+

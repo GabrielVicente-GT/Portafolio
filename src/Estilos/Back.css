@@ -1,4 +1,26 @@
 
+.FondoAnimado h1{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    cursor:context-menu;
+    font-size: 40px;
+}
+
+
+.FondoAnimado h3{
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    cursor:context-menu;
+}
 
 .FondoAnimado{
     margin: 0%;
@@ -8,4 +30,79 @@
     background-color: black;
     width: 100%;
     height: 100%;
+    overflow-x: hidden;
+}
+
+.Animations div{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border: 10px solid white;
+    border-radius: 30px;
+}
+
+
+
+.Animations div:nth-child(2){
+    bottom: 10%;
+    right: 10%;
+    animation: movimientoB 5s linear infinite;
+} 
+
+.Animations div:nth-child(3){
+    top: 35%;
+    left: 15%;
+    animation: movimiento 7s linear infinite;
+} 
+
+.Animations div:nth-child(4){
+    top: 40%;
+    right: 20%;
+    animation: movimientoB 11s linear infinite;
+}   
+
+.Animations div:nth-child(1){
+    bottom: 25%;
+    left: 35%;
+    animation: movimiento 10s linear infinite;
+}   
+
+.Animations div:nth-child(5){
+    top: 25%;
+    right: 10%;
+    animation: movimientoB 12s linear infinite;
+} 
+
+.Animations div:nth-child(6){
+    top: 10%;
+    left: 10%;
+    animation: movimiento 13s linear infinite;
+} 
+.Animations div:nth-child(7){
+    top: 15%;
+    right: 35%;
+    animation: movimientoB 8s linear infinite;
+} 
+
+@keyframes movimiento{
+    0%   {
+        transform: scale(0);
+        opacity: 1;
+    }
+    100% {
+        transform:scale(1) translateX(-120px) rotate(360deg) ;
+        opacity: 0;
+    }
+}
+
+  @keyframes movimientoB{
+    0%   {
+        transform: scale(0);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1) translateX(120px) rotate(360deg) ;
+        opacity: 0;
+    }
 }
