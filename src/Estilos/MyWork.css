@@ -32,21 +32,21 @@
 }
 
 .MyWork .OcultoB{
-  transition: all 500ms ease;
+  transition: all 600ms ease;
   transform: translateX(800%);
 }
 .MyWork .VisibleB{
-  transition: all 500ms ease;
+  transition: all 600ms ease;
   transform: translateX(0%);
 }
 
 
 .MyWork .OcultoC{
-  transition: all 600ms ease;
+  transition: all 800ms ease;
   transform: translateX(800%);
 }
 .MyWork .VisibleC{
-  transition: all 600ms ease;
+  transition: all 800ms ease;
   transform: translateX(0%);
 }
 
@@ -218,4 +218,79 @@
   line-height: 30px;
   text-align: center;
   transform: rotateZ(-90deg);
+}
+
+.MyWork .Calculadora{
+  transition: all 700ms ease;
+  background-image: url(../Imagenes/Calculadora.PNG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.MyWork .Calculadora:hover{
+  transition: all 700ms ease;
+  transform: scale(1.1);
+}
+
+.MyWork .Pelis{
+  transition: all 700ms ease;
+  background-image: url(../Imagenes/Pelis.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.MyWork .Pelis:hover{
+  transition: all 700ms ease;
+  transform: scale(1.1);
+}
+
+.MyWork .Espejo{
+  transition: all 700ms ease;
+  background-image: url(../Imagenes/Espejo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.MyWork .Espejo:hover{
+  transition: all 700ms ease;
+  transform: scale(1.1);
+}
+
+.MyWork .Laberinto{
+  transition: all 700ms ease;
+  background-image: url(../Imagenes/Laberinto.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.MyWork .Laberinto:hover{
+  transition: all 700ms ease;
+  transform: scale(1.1);
+}
+
+.MyWork .Lisp{
+  transition: all 700ms ease;
+  background-image: url(../Imagenes/Lisp.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.MyWork .Lisp:hover{
+  transition: all 700ms ease;
+  transform: scale(1.1);
 }

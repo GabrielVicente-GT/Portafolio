@@ -4,5 +4,140 @@
     width: 100%;
     height: 100%;
     background-color: white;
+    overflow-y: hidden;
     overflow-x: hidden;
+
   }
+
+.Talk .Diferente{
+  transition: all 700ms ease;
+  background-color: white;
+  color: black;
+
+  width: 30%;
+  height:10%;
+  cursor: pointer;
+  position: relative;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 50px;
+  text-align: center;
+  cursor: default;
+}
+
+.Talk .AnimationIzquierda{
+  position: absolute;
+  transition: all 700ms ease;
+  background-image: url(../Imagenes/telefono.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20%;
+  height:50%;
+  cursor: pointer;
+  top:50%;
+  left: 100%;
+  transform: translate(-50%,-50%);
+}
+
+.Talk .AnimationDerecha{
+  position: absolute;
+  transition: all 700ms ease;
+  background-image: url(../Imagenes/telefono.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20%;
+  height:50%;
+  cursor: pointer;
+  top:50%;
+  left: 0%;
+  transform: translate(-50%,-50%);
+}
+
+.Talk .Contactos{
+  overflow-y: hidden;
+  overflow-x: hidden;
+  gap: 100px;
+  transition: all 500ms ease;
+  display: grid;
+  background-color: white;
+  grid-template-rows: 150px 150px;
+  grid-template-columns: 150px 150px;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  top:60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.Talk .Whatssap{
+  transition: all 700ms ease;
+  background-image: url(../Imagenes/Whats.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.Talk .Whatssap:hover{
+  transition: all 700ms ease;
+  transform: scale(1.1);
+}
+
+.Talk .Discord{
+  transition: all 700ms ease;
+  background-image: url(../Imagenes/Discord.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.Talk .Discord:hover{
+  transition: all 700ms ease;
+  transform: scale(1.1);
+}
+
+.Talk .Linkedin{
+  transition: all 700ms ease;
+  background-image: url(../Imagenes/Lined.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.Talk .Linkedin:hover{
+  transition: all 700ms ease;
+  transform: scale(1.1);
+}
+
+
+.Talk .Gmail{
+  transition: all 700ms ease;
+  background-image: url(../Imagenes/Gmail.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 120px;
+  height:120px;
+  cursor: pointer;
+}
+
+.Talk .Gmail:hover{
+  transition: all 700ms ease;
+  transform: scale(1.1);
+}
+
+.Talk .Oculto{
+  transition: all 500ms ease;
+  transform: translateY(800%) translateX(800%);
+}
+.Talk .Visible{
+  transition: all 500ms ease;
+}

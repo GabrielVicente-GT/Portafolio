@@ -8,7 +8,7 @@ const MyWork = () => {
     const Smoke = () => {
       if (document.documentElement.scrollTop > document.documentElement.scrollHeight/4*2 && document.documentElement.scrollTop < document.documentElement.scrollHeight/4*3 ) {
         SetMostrando('Visible')
-      } else if (document.documentElement.scrollTop > document.documentElement.scrollHeight/4 && document.documentElement.scrollTop < document.documentElement.scrollHeight/4*2) {
+      } else if (document.documentElement.scrollTop > document.documentElement.scrollHeight/4*3 && document.documentElement.scrollTop < document.documentElement.scrollHeight) {
         SetMostrando('Oculto')
       }
       else if (document.documentElement.scrollTop < document.documentElement.scrollHeight/4){
@@ -28,11 +28,11 @@ const MyWork = () => {
         </div>
         <div className={`Trabajos ${mostrando}C`}>
           <h3>{TextoTrabajos}</h3>
-          <div className="React"></div>
-          <div className="Python"></div>
-          <div className="C"></div>
-          <div className="Java"></div>
-          <div className="Pos"></div>
+          <div className="Calculadora"  onClick={() => {window.open('https://juanelcaballo.club/20498/Laboratorio_8_20498/')}}></div>
+          <div className="Pelis" onClick={() => {window.open('https://github.com/ChristopherG19/Proyecto_2_3_BD')}}></div>
+          <div className="Espejo" onClick={() => {window.open('https://juanelcaballo.club/20498/Lab-CSS/index.html')}}></div>
+          <div className="Laberinto" onClick={() => {window.open('http://juanelcaballo.club/20498/Laboratorio_7_20498/')}}></div>
+          <div className="Lisp" onClick={() => {window.open('https://github.com/GabrielVicente-GT/Proyecto-LISP-estructura-de-datos')}}></div>
         </div>
         <div className="Contenedor" onClick={() => {window.open('https://github.com/GabrielVicente-GT')}}>
           <div className="Efecto">
