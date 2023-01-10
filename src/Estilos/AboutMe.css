@@ -54,7 +54,7 @@
 
 .AboutMePage .PanelCovered{
     transition: all 800ms ease;
-	  transform: translateX(-100%);
+    transform: translateX(-100%);
 }
 .AboutMePage .PanelMostrando{
     transition: all 800ms ease;
@@ -105,7 +105,7 @@
   line-height: 3;
   position: absolute;
   top: 50%;
-  left: 40%;
+  left: 47%;
   transform: translate(-50%,-50%);
   font-family: 'Courier New', Courier, monospace;
   color: white;

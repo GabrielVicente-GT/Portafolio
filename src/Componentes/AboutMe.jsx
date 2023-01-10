@@ -9,7 +9,7 @@ const AboutMe = () => {
     const [despliegue, SetDespliegue] = useState('PanelCovered')
 
     const Verificador = () => {
-      if (document.documentElement.scrollTop > document.documentElement.scrollHeight/4 && document.documentElement.scrollTop < document.documentElement.scrollHeight/4*2 ) {
+      if (document.documentElement.scrollTop > document.documentElement.scrollHeight/4 -3 && document.documentElement.scrollTop < document.documentElement.scrollHeight/4*2 ) {
         SetDespliegue('PanelMostrando')
         SetAnimacion(['Piano','Headphones','Tacos','Mando'])
       } else if (document.documentElement.scrollTop > document.documentElement.scrollHeight/4*2 && document.documentElement.scrollTop < document.documentElement.scrollHeight/4*3) {
@@ -28,9 +28,9 @@ const AboutMe = () => {
         <div className={`Valores ${despliegue}B`}>
           <span>Quickly</span>
           <ul>
-            <li className="Respeto">20 years old</li>
-            <li className="Responsabilidad"> UVG student</li>
-            <li className="Modestia"> Guatemalan</li>
+            <li className="Respeto">21 years old</li>
+            <li className="Responsabilidad">UVG 4th year student</li>
+            <li className="Modestia">Guatemalan</li>
           </ul>
         </div>
         <div className={`Description ${despliegue}C`}>

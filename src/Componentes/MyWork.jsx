@@ -6,7 +6,7 @@ const MyWork = () => {
     const TextoTrabajos = "Projects <3"
     const [mostrando, SetMostrando] = useState('Oculto')
     const Smoke = () => {
-      if (document.documentElement.scrollTop > document.documentElement.scrollHeight/4*2 && document.documentElement.scrollTop < document.documentElement.scrollHeight/4*3 ) {
+      if (document.documentElement.scrollTop > document.documentElement.scrollHeight/4*2 -3 && document.documentElement.scrollTop < document.documentElement.scrollHeight/4*3 ) {
         SetMostrando('Visible')
       } else if (document.documentElement.scrollTop > document.documentElement.scrollHeight/4*3 && document.documentElement.scrollTop < document.documentElement.scrollHeight) {
         SetMostrando('Oculto')
